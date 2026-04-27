@@ -1,0 +1,30 @@
+# IntelliJ / VS Code
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Java / Maven build artifacts
+**/target/
+
+# Local Python cache (UI static server)
+__pycache__/
+*.pyc
+
+# Docker local override
+docker-compose.override.yml
+
+# Local tooling artifacts (session-specific)
+.github/java-upgrade/
