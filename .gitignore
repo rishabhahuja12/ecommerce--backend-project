@@ -28,3 +28,8 @@ docker-compose.override.yml
 
 # Local tooling artifacts (session-specific)
 .github/java-upgrade/
+
+# Local session documentation only
+PROJECT_GUIDE.md
+ecommerce_microservices_documentation (2).md
+final_md_msa.pdf
